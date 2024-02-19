@@ -1,0 +1,27 @@
+/* Make a 3 column container */
+
+ul {
+    display: grid;
+    height: 30rem;
+    width: 70rem;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
+    gap: 10rem;
+    justify-content: center;
+}
+
+
+
+/* Position container in the middle */
+
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    height:12em;
+}
